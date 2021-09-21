@@ -1,10 +1,24 @@
 .country{
+    display: flex;
+    align-items: center;
     background-color: lightblue;
     border: 2px solid lightpink;
     border-radius: 10px;
-    margin: 10px;
-    padding: 5px;
+    padding: 20px;
+}
+.country-right,.country-left{
+    width: 50%;
+}
+.country-left{
+    text-align: left;
 }
 .flag{
-    width: 30%;
+    width: 100%;
+}
+button.show-flag-btn {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 700;
 }
