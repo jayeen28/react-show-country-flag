@@ -14,7 +14,7 @@ const Countries = () => {
             <h1>Hello from {countries.length}</h1>
             <div className="countries-container">
                 {
-                    countries.map(country => <Country country={country}></Country>)
+                    countries.map(country => <Country country={country} key={country.alpha2Code}></Country>)
                 }
             </div>
         </div>
